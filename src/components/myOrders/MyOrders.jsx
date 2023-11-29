@@ -21,8 +21,14 @@ const MyOrders = () => {
           </thead>
 
           <tbody>
-//     Add the code for the table body
-           
+            <tr>
+              <td>#123456</td>
+              <td>Processing</td>
+              <td>3</td>
+              <td>₹2560</td>
+              <td>COD</td>
+              <td><a href="/orderdetails"><AiOutlineEye/></a></td>
+            </tr>
           </tbody>
         </table>
       </main>
