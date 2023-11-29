@@ -46,31 +46,6 @@ const Menu = () => {
               delay={(index + 1) * 0.15}
             />
         ))}
-
-        {/* <MenuCard
-          itemNum={1}
-          burgerSrc={burger1}
-          price={200}
-          title="Cheese Burger"
-          handler={addToCart}
-          delay={0.1}
-        />
-        <MenuCard
-          itemNum={2}
-          burgerSrc={burger2}
-          price={500}
-          title="Bacon Cheese Burger"
-          delay={0.3}
-          handler={addToCart}
-        />
-        <MenuCard
-          itemNum={3}
-          burgerSrc={burger3}
-          price={1800}
-          title="Original Burger & fries"
-          delay={0.5}
-          handler={addToCart}
-        /> */}
       </div>
     </section>
   );

@@ -49,9 +49,8 @@ const Shipping = () => {
             <label htmlFor="phone">Phone No.</label>
             <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"placeholder="Format 123-123-1234" />
           </div>
-          <Link to="/myorders">
             <Popup trigger=
-                {<button type = "button">Confirm Order</button>}
+                {<button type = "button" className="shipping-button">Confirm Order</button>}
                 position="right center">
                 <div 
                 style={{color:"red",position: 'absolute', top: '50%', right: '100%', 
@@ -59,7 +58,6 @@ const Shipping = () => {
                   borderRadius: '5px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)'}}>Order Placed
                 </div>
             </Popup>
-          </Link>
         </form>
       </main>
     </section>

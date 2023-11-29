@@ -49,7 +49,7 @@ const Profile = () => {
             delay: 0.3,
           }}
         >
-          <Link to="/login">Logout</Link>
+          <Link to="/logout">Logout</Link>
         </motion.button>
       </main>
     </section>
