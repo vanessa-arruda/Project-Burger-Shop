@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
         <aside>
           <p>Follow us:</p>
-          <a href="https://youtube.com"><FaYoutube/></a>
-          <a href="https://instagram.com"><FaInstagram /></a>
-          <a href="https://linkedin.com"><FaLinkedin /></a>
+          <a href="https://youtube.com" target="_blank"><FaYoutube/></a>
+          <a href="https://instagram.com" target="_blank"><FaInstagram /></a>
+          <a href="https://linkedin.com" target="_blank"><FaLinkedin /></a>
         </aside>
 
     </footer>

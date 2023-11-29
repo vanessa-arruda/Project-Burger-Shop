@@ -6,11 +6,21 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.login,
-.logout{
+.login{
     text-transform: uppercase;
     background-color: #e1ecf9; 
     color: #04418b;
+    border: none;
+    font-size: 0.7rem;
+    padding: 0.3rem 6rem;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.register{
+    text-transform: uppercase;
+    background-color: #eaeaea;
+    color: #6f6f6f;
     border: none;
     font-size: 0.7rem;
     padding: 0.3rem 6rem;
@@ -69,6 +79,10 @@
     padding: 0.2rem 12rem;
     margin: 2rem 0;
     box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sm-icons{
+    color: #3179d1;
 }
 
 @media screen and (max-width: 576px){

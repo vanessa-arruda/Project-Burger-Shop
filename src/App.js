@@ -10,6 +10,7 @@ import MyOrders from "./components/myOrders/MyOrders";
 import OrderDetails from "./components/myOrders/OrderDetails";
 import About from "./components/about/About";
 import Shipping from "./components/cart/Shipping";
+import Logout from "./components/login/Logout";
 
 import "./styles/app.scss";
 import "./styles/header.scss";
@@ -37,10 +38,10 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/shipping" element={<Shipping />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout/>}/>
         <Route path="/me" element={<Profile />} />
         <Route path="/myorders" element={<MyOrders/>}/>
-        {/* <Route path="/order/:id" element={<OrderDetails />} /> */}
-        <Route path="/orderdetails" element={<OrderDetails />} />
+        <Route path="/order/:id" element={<OrderDetails />} />
       </Routes>
       <Footer />
     </Router>
