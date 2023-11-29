@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import me from "../../assets/skj.jpg";
 import { Link } from "react-router-dom";
-import { MdDashboard } from "react-icons/md";
+// import { MdDashboard } from "react-icons/md";
 
 const Profile = () => {
   const options = {
@@ -49,7 +49,7 @@ const Profile = () => {
             delay: 0.3,
           }}
         >
-          Logout
+          <Link to="/login">Logout</Link>
         </motion.button>
       </main>
     </section>
